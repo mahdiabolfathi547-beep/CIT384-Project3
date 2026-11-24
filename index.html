@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Your Giga Pet</title>
+    <meta name="description" content="A cool thing made with Glitch">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>
+        This is your Giga Pet
+      </h1>
+    </header>
+  
+    <main>
+   
+      <section class="pet-image-container">
+         <!-- Replace pet image with your own pet image -->
+        <img 
+      class="pet-image"
+      src="images/GermanShphered.png"
+      alt="Larry the Giga Pet"
+     >
+      </section>
+      <section class="dashboard">
+        <div>Name: <strong><span class="name"></span></strong></div>
+        <div>Weight: <strong><span class="weight"></span> pounds</strong></div>
+        <div>Happiness: <strong><span class="happiness"></span> tail wags (per min)</strong></div>
+        <div>Laziness: <strong><span class="Laziness">shows Z for sleep</span></strong></div>
+        <div class="button-container">
+          <button class="treat-button">
+            Treat
+          </button>
+          <button class="play-button">
+            Play
+          </button>
+          <button class="exercise-button" >
+            Exercise
+          </button>
+          <button class="rest-button" type="button" >Rest</button>
+          <button class="tip-button" type="button">Show or Hide Care Tips</button>
+          <div class="care-tips">
+            <p>Give Mochi a treat, play, excersise, or rest.</p>
+          </div>
+          <p class="pet-message" aria-live="polite"></p>
+        </div>
+      </section>
+    </main>
+
+    <!-- Your web-app is https, so your scripts need to be too -->
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+          <script src="script.js"></script>
+  </body>
+</html>
